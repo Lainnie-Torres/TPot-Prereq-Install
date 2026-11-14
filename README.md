@@ -27,6 +27,17 @@ The T-Pot environment was deployed inside a virtual machine with the following r
 | Host Port | 8443 |
 | Guest Port | 64297 |
 
+
+
+  <img src="Screenshot 2026-11-14 154230.png" width="550" alt="VirtualBox VM configuration"><br>
+  <sub>VirtualBox virtual machine configuration showing the allocated system resources.</sub>
+
+
+
+  <img src="Screenshot 2026-11-14 154634.png" width="550" alt="VirtualBox Storage configuration"><br>
+  <sub>VirtualBox storage configuration showing the virtual disk allocation.</sub>
+
+
 ### Network Configuration
 
 The virtual machine uses **NAT networking** in VirtualBox. A port forwarding rule was configured to allow access to the T-Pot web interface from the host machine.
@@ -55,6 +66,7 @@ The installed T-Pot version was verified from the local Git repository:
 - **Git Description:** `24.04.1-180-g5d95017d`
 
 ### 4. Web Interface Access
+  <img src="Screenshot 2026-11-14 154516.png" width="550" alt="T-Pot Web Interface">
 
 Configured VirtualBox port forwarding to access the T-Pot web interface from the Windows host.
 
